@@ -1,0 +1,31 @@
+<script id="campaign-listing-template" type="x-tmpl-mustache">
+
+  <div class="campaign">
+    <h2 class="title-container">
+      <a href="javascript:void(0);" class="title" data-id="{{id}}">{{title}}</a>
+    </h2>
+    <p>{{details}}</p>
+    <h3>{{target}}</h3>
+    <hr>
+  </div>
+
+</script>
+
+
+<script id="single-campaign-display" type="x-tmpl-mustache">
+
+  <h1>{{title}}</h1>
+  <p>Details: {{details}}</p>
+  <p>Target: $ {{target}}</p>
+  <p>End Date: {{end_date}}</p>
+  <a href="javascript:void(0);" class="back">Back</a>
+
+</script>
+
+<h1>Welcome to Fund.sy</h1>
+
+
+<div id="campaigns"></div>
+<div id="single-campaign-container"></div>
+
+
